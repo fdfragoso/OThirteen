@@ -1,0 +1,3 @@
+[submodule "OThirteen/vendor/spdlog"]
+	path = OThirteen/vendor/spdlog
+	url = https://github.com/gabime/spdlog

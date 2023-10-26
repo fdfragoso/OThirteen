@@ -27,9 +27,15 @@
     <ClInclude Include="src\OThirteen\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\OThirteen\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\OThirteen\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OThirteen\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

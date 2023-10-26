@@ -57,6 +57,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>OT_PLATFORM_WINDOWS;OT_BUILD_DLL;OTHIRTEEN_BUILD_DLL;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)OThirteen\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -80,12 +81,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\OThirteen\Log.h" />
     <ClInclude Include="src\OThirteen\Application.h" />
     <ClInclude Include="src\OThirteen.h" />
     <ClInclude Include="src\OThirteen\Core.h" />
     <ClInclude Include="src\OThirteen\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\OThirteen\Log.cpp" />
     <ClCompile Include="src\OThirteen\Application.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
