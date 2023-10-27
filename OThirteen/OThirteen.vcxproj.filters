@@ -4,6 +4,9 @@
     <Filter Include="OThirteen">
       <UniqueIdentifier>{B7DC03AD-2347-B823-6C85-69C9D82E9678}</UniqueIdentifier>
     </Filter>
+    <Filter Include="OThirteen\Events">
+      <UniqueIdentifier>{BB3419CD-A72D-381F-D05F-1DA4BCB7172B}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\OThirteen.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\OThirteen\EntryPoint.h">
       <Filter>OThirteen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OThirteen\Events\Application.h">
+      <Filter>OThirteen\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OThirteen\Events\Event.h">
+      <Filter>OThirteen\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OThirteen\Events\KeyEvent.h">
+      <Filter>OThirteen\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OThirteen\Events\MouseEvent.h">
+      <Filter>OThirteen\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\OThirteen\Log.h">
       <Filter>OThirteen</Filter>
